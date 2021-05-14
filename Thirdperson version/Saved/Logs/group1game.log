@@ -1,8 +1,8 @@
-﻿Log file open, 05/14/21 10:34:05
+﻿Log file open, 05/14/21 11:16:44
 LogInit: Display: Running engine for game: group1game
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.160455
+LogStats: Stats thread started at 0.455801
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -195,564 +195,722 @@ LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
-[2021.05.14-09.34.05:362][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2021.05.14-09.34.05:362][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
-[2021.05.14-09.34.05:362][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
-[2021.05.14-09.34.05:364][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.05.14-09.34.05:364][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.05.14-09.34.05:365][  0]LogInit: Selected Device Profile: [Windows]
-[2021.05.14-09.34.05:365][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2021.05.14-09.34.05:365][  0]LogHAL: Display: Platform has ~ 16 GB [17125564416 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2021.05.14-09.34.05:365][  0]LogInit: Going up to parent DeviceProfile []
-[2021.05.14-09.34.05:365][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2021.05.14-09.34.05:365][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
-[2021.05.14-09.34.05:366][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2021.05.14-09.34.05:367][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2021.05.14-09.34.05:367][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2021.05.14-09.34.05:367][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
-[2021.05.14-09.34.05:367][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
-[2021.05.14-09.34.05:367][  0]LogInit: Computer: A22812X
-[2021.05.14-09.34.05:367][  0]LogInit: User: ms05254929
-[2021.05.14-09.34.05:367][  0]LogInit: CPU Page size=4096, Cores=6
-[2021.05.14-09.34.05:367][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2021.05.14-09.34.05:367][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2021.05.14-09.34.05:367][  0]LogMemory: Platform Memory Stats for Windows
-[2021.05.14-09.34.05:367][  0]LogMemory: Process Physical Memory: 113.27 MB used, 113.27 MB peak
-[2021.05.14-09.34.05:367][  0]LogMemory: Process Virtual Memory: 95.81 MB used, 95.81 MB peak
-[2021.05.14-09.34.05:367][  0]LogMemory: Physical Memory: 5829.34 MB used,  10502.87 MB free, 16332.21 MB total
-[2021.05.14-09.34.05:367][  0]LogMemory: Virtual Memory: 5137.18 MB used,  134212592.00 MB free, 134217728.00 MB total
-[2021.05.14-09.34.05:372][  0]LogWindows: WindowsPlatformFeatures enabled
-[2021.05.14-09.34.05:404][  0]LogInit: Physics initialised using underlying interface: PhysX
-[2021.05.14-09.34.05:405][  0]LogInit: Using OS detected language (en-US).
-[2021.05.14-09.34.05:405][  0]LogInit: Using OS detected locale (en-GB).
-[2021.05.14-09.34.05:406][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2021.05.14-09.34.05:566][  0]LogInit: Setting process to per monitor DPI aware
-[2021.05.14-09.34.05:593][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2021.05.14-09.34.05:593][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2021.05.14-09.34.05:845][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.05.14-09.34.05:845][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
-[2021.05.14-09.34.05:845][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
-[2021.05.14-09.34.05:845][  0]LogD3D11RHI: D3D11 adapters:
-[2021.05.14-09.34.05:917][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660' (Feature Level 11_0)
-[2021.05.14-09.34.05:917][  0]LogD3D11RHI:       5991/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2021.05.14-09.34.05:920][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2021.05.14-09.34.05:920][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2021.05.14-09.34.05:920][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2021.05.14-09.34.05:926][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2021.05.14-09.34.05:926][  0]LogD3D11RHI:     GPU DeviceId: 0x2184 (for the marketing name, search the web for "GPU Device Id")
-[2021.05.14-09.34.05:926][  0]LogWindows: EnumDisplayDevices:
-[2021.05.14-09.34.05:926][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660' (P:1 D:1)
-[2021.05.14-09.34.05:926][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
-[2021.05.14-09.34.05:927][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
-[2021.05.14-09.34.05:927][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
-[2021.05.14-09.34.05:927][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2021.05.14-09.34.05:927][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660
-[2021.05.14-09.34.05:927][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
-[2021.05.14-09.34.05:927][  0]LogD3D11RHI:      Driver Date: 7-5-2020
-[2021.05.14-09.34.05:927][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
-[2021.05.14-09.34.05:972][  0]LogD3D11RHI: RHI has support for 64 bit atomics
-[2021.05.14-09.34.05:974][  0]LogD3D11RHI: [Aftermath] Enabled and primed
-[2021.05.14-09.34.05:974][  0]LogD3D11RHI: Async texture creation enabled
-[2021.05.14-09.34.05:974][  0]LogD3D11RHI: Array index from any shader is supported
-[2021.05.14-09.34.05:989][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2021.05.14-09.34.06:243][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2021.05.14-09.34.06:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2021.05.14-09.34.06:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2021.05.14-09.34.06:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2021.05.14-09.34.06:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2021.05.14-09.34.06:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2021.05.14-09.34.06:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2021.05.14-09.34.06:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2021.05.14-09.34.06:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2021.05.14-09.34.06:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2021.05.14-09.34.06:262][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2021.05.14-09.34.06:284][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2021.05.14-09.34.06:284][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2021.05.14-09.34.06:294][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
-[2021.05.14-09.34.06:302][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2021.05.14-09.34.06:311][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2021.05.14-09.34.06:319][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2021.05.14-09.34.06:328][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2021.05.14-09.34.06:336][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2021.05.14-09.34.06:345][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2021.05.14-09.34.06:368][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2021.05.14-09.34.06:369][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2021.05.14-09.34.06:383][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2021.05.14-09.34.06:383][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2021.05.14-09.34.06:392][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2021.05.14-09.34.06:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2021.05.14-09.34.06:408][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2021.05.14-09.34.06:416][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2021.05.14-09.34.06:416][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2021.05.14-09.34.06:424][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2021.05.14-09.34.06:479][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Intermediate/Shaders/WorkingDirectory/15684/).
-[2021.05.14-09.34.06:480][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ms05254929/AppData/Local/Temp/UnrealShaderWorkingDir/6913CB044FF87FDA7FBE4EBCB35E81D4/'.
-[2021.05.14-09.34.06:480][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2021.05.14-09.34.06:480][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2021.05.14-09.34.06:480][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2021.05.14-09.34.07:201][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2021.05.14-09.34.07:248][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/ms05254929/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.05.14-09.34.07:248][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ms05254929/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
-[2021.05.14-09.34.07:248][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2021.05.14-09.34.07:248][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2021.05.14-09.34.07:248][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.05.14-09.34.07:248][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2021.05.14-09.34.07:257][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2021.05.14-09.34.07:257][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2021.05.14-09.34.07:257][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2021.05.14-09.34.07:259][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ms05254929/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2021.05.14-09.34.07:259][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2021.05.14-09.34.07:259][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2021.05.14-09.34.07:304][  0]LogSlate: Using FreeType 2.10.0
-[2021.05.14-09.34.07:306][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2021.05.14-09.34.07:331][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
-[2021.05.14-09.34.07:534][  0]LogInit: Selected Device Profile: [Windows]
-[2021.05.14-09.34.07:638][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2021.05.14-09.34.07:638][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2021.05.14-09.34.07:638][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2021.05.14-09.34.07:638][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2021.05.14-09.34.07:638][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2021.05.14-09.34.07:651][  0]LogNetVersion: group1game 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3838757134)
-[2021.05.14-09.34.08:058][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001D699D31BC0), frame # 0
-[2021.05.14-09.34.08:058][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D699C7AAC0), frame # 0
-[2021.05.14-09.34.08:059][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D699CB5E00), frame # 0
-[2021.05.14-09.34.08:101][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.036918 seconds
-[2021.05.14-09.34.08:106][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
-[2021.05.14-09.34.08:106][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
-[2021.05.14-09.34.08:106][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2021.05.14-09.34.08:435][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2021.05.14-09.34.08:440][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2021.05.14-09.34.08:520][  0]SourceControl: Source control is disabled
-[2021.05.14-09.34.08:521][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2021.05.14-09.34.08:521][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
-[2021.05.14-09.34.08:521][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
-[2021.05.14-09.34.08:521][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
-[2021.05.14-09.34.09:100][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2021.05.14-09.34.09:120][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.05.14-09.34.09:120][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2021.05.14-09.34.09:167][  0]LogOcInput: OculusInput pre-init called
-[2021.05.14-09.34.09:177][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2021.05.14-09.34.09:177][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2021.05.14-09.34.09:233][  0]LogEngine: Initializing Engine...
-[2021.05.14-09.34.09:235][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2021.05.14-09.34.09:235][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
-[2021.05.14-09.34.09:235][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2021.05.14-09.34.09:344][  0]LogInit: Initializing FReadOnlyCVARCache
-[2021.05.14-09.34.09:350][  0]LogAIModule: Creating AISystem for world Untitled
-[2021.05.14-09.34.09:351][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D69C194600), frame # 0
-[2021.05.14-09.34.09:351][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D69C14FB00), frame # 0
-[2021.05.14-09.34.09:367][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2021.05.14-09.34.09:367][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2021.05.14-09.34.09:367][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2021.05.14-09.34.09:367][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2021.05.14-09.34.09:367][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2021.05.14-09.34.09:367][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2021.05.14-09.34.09:367][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2021.05.14-09.34.09:367][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2021.05.14-09.34.09:367][  0]LogAudio: Display: Using built-in audio occlusion.
-[2021.05.14-09.34.09:367][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2021.05.14-09.34.09:375][  0]LogAudioMixer: Display: 0: FrontLeft
-[2021.05.14-09.34.09:375][  0]LogAudioMixer: Display: 1: FrontRight
-[2021.05.14-09.34.09:405][  0]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
-[2021.05.14-09.34.09:407][  0]LogAudioMixer: Display: Initializing Sound Submixes...
-[2021.05.14-09.34.09:410][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
-[2021.05.14-09.34.09:410][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
-[2021.05.14-09.34.09:411][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
-[2021.05.14-09.34.09:412][  0]LogInit: FAudioDevice initialized.
-[2021.05.14-09.34.09:412][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2021.05.14-09.34.09:493][  0]LogDerivedDataCache: Saved boot cache 0.08s 75MB C:/Users/ms05254929/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
-[2021.05.14-09.34.09:494][  0]LogInit: Texture streaming: Enabled
-[2021.05.14-09.34.09:515][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2021.05.14-09.34.09:515][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2021.05.14-09.34.09:522][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2021.05.14-09.34.09:565][  0]LogInit: Transaction tracking system initialized
-[2021.05.14-09.34.09:586][  0]BlueprintLog: New page: Editor Load
-[2021.05.14-09.34.09:653][  0]LocalizationService: Localization service is disabled
-[2021.05.14-09.34.09:791][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2021.05.14-09.34.09:791][  0]LogCook: Display: Mobile HDR setting 1
-[2021.05.14-09.34.09:918][  0]LogFileCache: Scanning file cache for directory 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/' took 0.00s
-[2021.05.14-09.34.10:145][  0]LogUnrealEdMisc: Loading editor; pre map load, took 6.047
-[2021.05.14-09.34.10:145][  0]Cmd: MAP LOAD FILE="D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2021.05.14-09.34.10:145][  0]LightingResults: New page: Lighting Build
-[2021.05.14-09.34.10:146][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2021.05.14-09.34.10:146][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2021.05.14-09.34.10:146][  0]MapCheck: New page: Map Check
-[2021.05.14-09.34.10:146][  0]LightingResults: New page: Lighting Build
-[2021.05.14-09.34.10:155][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001D69C194600), frame # 0
-[2021.05.14-09.34.10:155][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000001D69C14FB00), frame # 0
-[2021.05.14-09.34.10:155][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
-[2021.05.14-09.34.10:343][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:343][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:343][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:343][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:344][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:344][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:344][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:344][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:345][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:345][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:345][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:345][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:356][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:356][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by Wall
-[2021.05.14-09.34.10:356][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:356][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by Wall
-[2021.05.14-09.34.10:356][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:356][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by Wall
-[2021.05.14-09.34.10:356][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:356][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by Wall
-[2021.05.14-09.34.10:357][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:357][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by cylinder_peice
-[2021.05.14-09.34.10:357][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:357][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by cylinder_peice
-[2021.05.14-09.34.10:357][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:357][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by cylinder_peice
-[2021.05.14-09.34.10:357][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:357][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by cylinder_peice
-[2021.05.14-09.34.10:357][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:357][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by 90_degree_wall
-[2021.05.14-09.34.10:357][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:357][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by 90_degree_wall
-[2021.05.14-09.34.10:357][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:357][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by 90_degree_wall
-[2021.05.14-09.34.10:357][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
-[2021.05.14-09.34.10:358][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by 90_degree_wall
-[2021.05.14-09.34.10:518][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2021.05.14-09.34.10:519][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001D69068BE00), frame # 0
-[2021.05.14-09.34.10:519][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000001D6906DA700), frame # 0
-[2021.05.14-09.34.10:544][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2021.05.14-09.34.10:557][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.84ms
-[2021.05.14-09.34.10:557][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2021.05.14-09.34.10:558][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.107ms to complete.
-[2021.05.14-09.34.10:558][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.413
-[2021.05.14-09.34.10:560][  0]LogUnrealEdMisc: Total Editor Startup Time, took 6.462
-[2021.05.14-09.34.10:724][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.14-09.34.10:731][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.14-09.34.10:737][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.14-09.34.10:744][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2021.05.14-09.34.10:753][  0]LogCollectionManager: Loaded 0 collections in 0.001408 seconds
-[2021.05.14-09.34.10:764][  0]LogFileCache: Scanning file cache for directory 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Collections/' took 0.00s
-[2021.05.14-09.34.10:764][  0]LogFileCache: Scanning file cache for directory 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/Developers/ms05254929/Collections/' took 0.00s
-[2021.05.14-09.34.10:764][  0]LogFileCache: Scanning file cache for directory 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/Collections/' took 0.00s
-[2021.05.14-09.34.10:764][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 3427 classes and 821 folders.
-[2021.05.14-09.34.10:767][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.05.14-09.34.10:817][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.05.14-09.34.10:818][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
-[2021.05.14-09.34.10:852][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2021.05.14-09.34.10:854][  0]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2021.05.14-09.34.10:858][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2021.05.14-09.34.10:918][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2021.05.14-09.34.11:054][  0]LogSlate: Window 'Tutorials' being destroyed
-[2021.05.14-09.34.11:063][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2021.05.14-09.34.11:063][  0]LogLoad: (Engine Initialization) Total time: 6.97 seconds
-[2021.05.14-09.34.11:063][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2021.05.14-09.34.11:095][  0]LogAssetRegistry: Asset discovery search completed in 3.7653 seconds
-[2021.05.14-09.34.11:099][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
-[2021.05.14-09.34.11:101][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2021.05.14-09.34.11:215][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.05.14-09.34.11:220][  0]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2021.05.14-09.34.16:143][581]LogSlate: Window 'Message Log' being destroyed
-[2021.05.14-09.34.16:146][581]LogSlate: Window 'Message Log' being destroyed
-[2021.05.14-09.34.52:817][833]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
-[2021.05.14-09.35.00:215][692]LogUObjectHash: Compacting FUObjectHashTables data took   0.51ms
-[2021.05.14-09.35.06:076][692]LogMainFrame: Project does not require temp target
-[2021.05.14-09.35.06:078][692]LogLauncherProfile: Found promoted target with matching version at ../../../Engine/Binaries/Win64/UE4Game.target
-[2021.05.14-09.35.06:142][695]UATHelper: Packaging (Windows (64-bit)): Running AutomationTool...
-[2021.05.14-09.35.06:213][699]UATHelper: Packaging (Windows (64-bit)): Parsing command line: -ScriptsForProject="D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/group1game.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/group1game.uproject" -cook -stage -archive -archivedirectory="D:/Virtual Work Experiance group 1/project" -package -ue4exe="C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -pak -prereqs -nodebuginfo -targetplatform=Win64 -clientconfig=Development -utf8output
-[2021.05.14-09.35.06:644][742]UATHelper: Packaging (Windows (64-bit)): Setting up ProjectParams for D:\Virtual Work Experiance group 1\project\VWXProject\Thirdperson version\group1game.uproject
-[2021.05.14-09.35.06:885][771]UATHelper: Packaging (Windows (64-bit)): ********** COOK COMMAND STARTED **********
-[2021.05.14-09.35.06:894][772]UATHelper: Packaging (Windows (64-bit)): Running UE4Editor Cook for project D:\Virtual Work Experiance group 1\project\VWXProject\Thirdperson version\group1game.uproject
-[2021.05.14-09.35.06:894][772]UATHelper: Packaging (Windows (64-bit)): ERROR: Cook failed.
-[2021.05.14-09.35.06:894][772]UATHelper: Packaging (Windows (64-bit)):        (see C:\Users\ms05254929\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.25\Log.txt for full exception trace)
-[2021.05.14-09.35.06:894][772]PackagingResults: Error: Cook failed.
-[2021.05.14-09.35.06:911][774]UATHelper: Packaging (Windows (64-bit)): AutomationTool exiting with ExitCode=25 (Error_UnknownCookFailure)
-[2021.05.14-09.35.06:918][775]UATHelper: Packaging (Windows (64-bit)): BUILD FAILED
-[2021.05.14-09.35.06:924][775]PackagingResults: Error: Unknown Cook Failure
-[2021.05.14-09.35.19:458][265]LogSlate: Window 'Output Log' being destroyed
-[2021.05.14-09.35.19:462][265]LogSlate: Window 'Output Log' being destroyed
-[2021.05.14-09.37.07:295][619]UATHelper: Cooking (Windows (64-bit)): Running AutomationTool...
-[2021.05.14-09.37.07:362][621]UATHelper: Cooking (Windows (64-bit)): Parsing command line: -ScriptsForProject="D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/group1game.uproject" BuildCookRun -nocompileeditor -installed -nop4 -project="D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/group1game.uproject" -cook -skipstage -ue4exe="C:\Program Files\Epic Games\UE_4.25\Engine\Binaries\Win64\UE4Editor-Cmd.exe" -targetplatform=Win64 -utf8output
-[2021.05.14-09.37.07:761][632]UATHelper: Cooking (Windows (64-bit)): Setting up ProjectParams for D:\Virtual Work Experiance group 1\project\VWXProject\Thirdperson version\group1game.uproject
-[2021.05.14-09.37.08:001][659]UATHelper: Cooking (Windows (64-bit)): ********** COOK COMMAND STARTED **********
-[2021.05.14-09.37.08:008][660]UATHelper: Cooking (Windows (64-bit)): Running UE4Editor Cook for project D:\Virtual Work Experiance group 1\project\VWXProject\Thirdperson version\group1game.uproject
-[2021.05.14-09.37.08:008][660]UATHelper: Cooking (Windows (64-bit)): ERROR: Cook failed.
-[2021.05.14-09.37.08:008][660]UATHelper: Cooking (Windows (64-bit)):        (see C:\Users\ms05254929\AppData\Roaming\Unreal Engine\AutomationTool\Logs\C+Program+Files+Epic+Games+UE_4.25\Log.txt for full exception trace)
-[2021.05.14-09.37.08:008][660]PackagingResults: Error: Cook failed.
-[2021.05.14-09.37.08:026][662]UATHelper: Cooking (Windows (64-bit)): AutomationTool exiting with ExitCode=25 (Error_UnknownCookFailure)
-[2021.05.14-09.37.08:035][663]UATHelper: Cooking (Windows (64-bit)): BUILD FAILED
-[2021.05.14-09.38.10:029][ 83]LogSlate: Window 'Output Log' being destroyed
-[2021.05.14-09.38.10:033][ 83]LogSlate: Window 'Output Log' being destroyed
-[2021.05.14-09.38.11:456][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall98)
-[2021.05.14-09.38.12:369][356]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall105)
-[2021.05.14-09.38.13:269][460]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall103)
-[2021.05.14-09.38.14:034][548]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall105)
-[2021.05.14-09.38.14:723][627]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall98)
-[2021.05.14-09.39.01:019][159]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall90)
-[2021.05.14-09.39.02:611][346]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall52)
-[2021.05.14-09.39.04:227][536]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall90)
-[2021.05.14-09.39.05:301][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall66)
-[2021.05.14-09.39.06:525][804]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall59)
-[2021.05.14-09.39.09:140][114]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall27)
-[2021.05.14-09.39.13:048][579]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall52)
-[2021.05.14-09.39.14:114][703]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall98)
-[2021.05.14-09.39.15:929][917]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (90_degree_wall51)
-[2021.05.14-09.39.47:460][706]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2021.05.14-09.39.47:489][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
-[2021.05.14-09.39.47:550][706]LogSavePackage: Moving 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/ThirdPersonExampleMap62C1E3F5479683FAED759B81781E2F22.tmp' to 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2021.05.14-09.39.47:576][706]AssetCheck: New page: Asset Save: ThirdPersonExampleMap
-[2021.05.14-09.39.47:576][706]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
-[2021.05.14-09.39.48:439][805]LogUObjectHash: Compacting FUObjectHashTables data took   0.26ms
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.51:967][178]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
-[2021.05.14-09.39.52:083][178]EditorErrors: Warning: No assets to check in!
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
+[2021.05.14-10.16.45:133][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.05.14-10.16.45:133][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
+[2021.05.14-10.16.45:133][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
+[2021.05.14-10.16.45:135][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.14-10.16.45:135][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.14-10.16.45:136][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.14-10.16.45:136][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.14-10.16.45:136][  0]LogHAL: Display: Platform has ~ 16 GB [17125564416 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.05.14-10.16.45:136][  0]LogInit: Going up to parent DeviceProfile []
+[2021.05.14-10.16.45:136][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.14-10.16.45:136][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Scalability.ini]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2021.05.14-10.16.45:137][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.05.14-10.16.45:139][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.05.14-10.16.45:139][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.05.14-10.16.45:139][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.05.14-10.16.45:139][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Config/Windows/Engine.ini]
+[2021.05.14-10.16.45:139][  0]LogInit: Computer: A22812X
+[2021.05.14-10.16.45:139][  0]LogInit: User: ms05254929
+[2021.05.14-10.16.45:139][  0]LogInit: CPU Page size=4096, Cores=6
+[2021.05.14-10.16.45:139][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.14-10.16.45:139][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.05.14-10.16.45:139][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.14-10.16.45:139][  0]LogMemory: Process Physical Memory: 113.11 MB used, 113.11 MB peak
+[2021.05.14-10.16.45:139][  0]LogMemory: Process Virtual Memory: 95.70 MB used, 95.70 MB peak
+[2021.05.14-10.16.45:139][  0]LogMemory: Physical Memory: 6643.07 MB used,  9689.14 MB free, 16332.21 MB total
+[2021.05.14-10.16.45:139][  0]LogMemory: Virtual Memory: 5137.18 MB used,  134212592.00 MB free, 134217728.00 MB total
+[2021.05.14-10.16.45:144][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.05.14-10.16.45:311][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.05.14-10.16.45:312][  0]LogInit: Using OS detected language (en-US).
+[2021.05.14-10.16.45:312][  0]LogInit: Using OS detected locale (en-GB).
+[2021.05.14-10.16.45:313][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2021.05.14-10.16.45:470][  0]LogInit: Setting process to per monitor DPI aware
+[2021.05.14-10.16.45:543][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.05.14-10.16.45:543][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.05.14-10.16.45:795][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.14-10.16.45:795][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.05.14-10.16.45:795][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.05.14-10.16.45:795][  0]LogD3D11RHI: D3D11 adapters:
+[2021.05.14-10.16.45:884][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1660' (Feature Level 11_0)
+[2021.05.14-10.16.45:884][  0]LogD3D11RHI:       5991/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.05.14-10.16.45:887][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.05.14-10.16.45:887][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.05.14-10.16.45:887][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.05.14-10.16.45:892][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.05.14-10.16.45:893][  0]LogD3D11RHI:     GPU DeviceId: 0x2184 (for the marketing name, search the web for "GPU Device Id")
+[2021.05.14-10.16.45:893][  0]LogWindows: EnumDisplayDevices:
+[2021.05.14-10.16.45:893][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1660' (P:1 D:1)
+[2021.05.14-10.16.45:893][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2021.05.14-10.16.45:893][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2021.05.14-10.16.45:893][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1660' (P:0 D:0)
+[2021.05.14-10.16.45:894][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.05.14-10.16.45:894][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1660
+[2021.05.14-10.16.45:894][  0]LogD3D11RHI:   Driver Version: 451.67 (internal:27.21.14.5167, unified:451.67)
+[2021.05.14-10.16.45:894][  0]LogD3D11RHI:      Driver Date: 7-5-2020
+[2021.05.14-10.16.45:894][  0]LogRHI: Texture pool is 4193 MB (70% of 5991 MB)
+[2021.05.14-10.16.45:941][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.05.14-10.16.45:943][  0]LogD3D11RHI: [Aftermath] Enabled and primed
+[2021.05.14-10.16.45:943][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.14-10.16.45:943][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.05.14-10.16.45:958][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.05.14-10.16.46:715][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.05.14-10.16.46:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.05.14-10.16.46:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.05.14-10.16.46:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.05.14-10.16.46:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.05.14-10.16.46:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.05.14-10.16.46:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.05.14-10.16.46:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.05.14-10.16.46:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.05.14-10.16.46:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.05.14-10.16.46:749][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.05.14-10.16.46:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.05.14-10.16.46:832][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.05.14-10.16.46:888][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.05.14-10.16.46:904][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.05.14-10.16.46:959][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.05.14-10.16.47:010][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.05.14-10.16.47:025][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.05.14-10.16.47:039][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.05.14-10.16.47:054][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.05.14-10.16.47:086][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.05.14-10.16.47:086][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.05.14-10.16.47:107][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.05.14-10.16.47:107][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.05.14-10.16.47:122][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.05.14-10.16.47:139][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.05.14-10.16.47:154][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.05.14-10.16.47:169][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.05.14-10.16.47:169][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.05.14-10.16.47:204][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.05.14-10.16.47:635][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Intermediate/Shaders/WorkingDirectory/9948/).
+[2021.05.14-10.16.47:635][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ms05254929/AppData/Local/Temp/UnrealShaderWorkingDir/CB34B667423FFDCAC264E49218FA208D/'.
+[2021.05.14-10.16.47:635][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2021.05.14-10.16.47:635][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.05.14-10.16.47:635][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.05.14-10.16.48:359][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.05.14-10.16.48:406][  0]LogDerivedDataCache: Loaded boot cache 0.05s 75MB C:/Users/ms05254929/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.14-10.16.48:406][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/ms05254929/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc
+[2021.05.14-10.16.48:406][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.14-10.16.48:406][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.14-10.16.48:406][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.14-10.16.48:406][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.05.14-10.16.48:415][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.14-10.16.48:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.14-10.16.48:415][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.05.14-10.16.48:417][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ms05254929/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.14-10.16.48:417][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.05.14-10.16.48:417][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.05.14-10.16.48:463][  0]LogSlate: Using FreeType 2.10.0
+[2021.05.14-10.16.48:464][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.05.14-10.16.48:495][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2021.05.14-10.16.48:694][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.14-10.16.49:082][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.05.14-10.16.49:082][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.05.14-10.16.49:082][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.05.14-10.16.49:082][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.05.14-10.16.49:082][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.05.14-10.16.49:103][  0]LogNetVersion: group1game 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 3838757134)
+[2021.05.14-10.16.49:501][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (0000020684C1DBC0), frame # 0
+[2021.05.14-10.16.49:501][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020684B72AC0), frame # 0
+[2021.05.14-10.16.49:502][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020684BADE00), frame # 0
+[2021.05.14-10.16.49:542][  0]LogPackageLocalizationCache: Processed 19 localized package path(s) for 1 prioritized culture(s) in 0.034582 seconds
+[2021.05.14-10.16.49:547][  0]LogUObjectArray: 15917 objects as part of root set at end of initial load.
+[2021.05.14-10.16.49:547][  0]LogUObjectAllocator: 3965568 out of 0 bytes used by permanent object pool.
+[2021.05.14-10.16.49:547][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.14-10.16.51:768][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.05.14-10.16.51:781][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.14-10.16.52:179][  0]SourceControl: Source control is disabled
+[2021.05.14-10.16.52:180][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2021.05.14-10.16.52:180][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2021.05.14-10.16.52:180][  0]LogWindows: Warning: CreateProc failed: The system cannot find the file specified. (0x00000002)
+[2021.05.14-10.16.52:180][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2021.05.14-10.16.54:267][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.14-10.16.54:440][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.14-10.16.54:440][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.14-10.16.54:634][  0]LogOcInput: OculusInput pre-init called
+[2021.05.14-10.16.54:699][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.05.14-10.16.54:699][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.05.14-10.16.54:855][  0]LogEngine: Initializing Engine...
+[2021.05.14-10.16.54:857][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.14-10.16.54:857][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.05.14-10.16.54:858][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.05.14-10.16.54:966][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.05.14-10.16.54:983][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.05.14-10.16.54:983][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020688028600), frame # 0
+[2021.05.14-10.16.54:983][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020688040680), frame # 0
+[2021.05.14-10.16.55:037][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-10.16.55:037][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-10.16.55:037][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-10.16.55:037][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-10.16.55:037][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-10.16.55:037][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-10.16.55:037][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-10.16.55:037][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-10.16.55:038][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-10.16.55:038][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-10.16.55:050][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-10.16.55:050][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-10.16.55:081][  0]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.05.14-10.16.55:083][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-10.16.55:085][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-10.16.55:085][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-10.16.55:086][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-10.16.55:087][  0]LogInit: FAudioDevice initialized.
+[2021.05.14-10.16.55:087][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.05.14-10.16.55:177][  0]LogDerivedDataCache: Saved boot cache 0.09s 75MB C:/Users/ms05254929/AppData/Local/UnrealEngine/4.25/DerivedDataCache/Boot.ddc.
+[2021.05.14-10.16.55:178][  0]LogInit: Texture streaming: Enabled
+[2021.05.14-10.16.55:273][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.05.14-10.16.55:273][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.05.14-10.16.55:280][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.05.14-10.16.55:336][  0]LogInit: Transaction tracking system initialized
+[2021.05.14-10.16.55:528][  0]BlueprintLog: New page: Editor Load
+[2021.05.14-10.16.56:073][  0]LocalizationService: Localization service is disabled
+[2021.05.14-10.16.56:606][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2021.05.14-10.16.56:606][  0]LogCook: Display: Mobile HDR setting 1
+[2021.05.14-10.16.57:110][  0]LogFileCache: Scanning file cache for directory 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/' took 0.00s
+[2021.05.14-10.16.57:883][  0]LogUnrealEdMisc: Loading editor; pre map load, took 15.634
+[2021.05.14-10.16.57:883][  0]Cmd: MAP LOAD FILE="D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.14-10.16.57:884][  0]LightingResults: New page: Lighting Build
+[2021.05.14-10.16.57:884][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-10.16.57:884][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-10.16.57:884][  0]MapCheck: New page: Map Check
+[2021.05.14-10.16.57:884][  0]LightingResults: New page: Lighting Build
+[2021.05.14-10.16.57:893][  0]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020688028600), frame # 0
+[2021.05.14-10.16.57:893][  0]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000020688040680), frame # 0
+[2021.05.14-10.16.57:894][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2021.05.14-10.16.58:081][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:081][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:081][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:081][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:082][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:082][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:082][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:082][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:083][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:083][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:083][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:083][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:095][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:095][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by Wall
+[2021.05.14-10.16.58:095][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:095][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by Wall
+[2021.05.14-10.16.58:095][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:095][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by Wall
+[2021.05.14-10.16.58:095][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/Wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:095][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by Wall
+[2021.05.14-10.16.58:095][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:095][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by cylinder_peice
+[2021.05.14-10.16.58:096][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:096][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by cylinder_peice
+[2021.05.14-10.16.58:096][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:096][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by cylinder_peice
+[2021.05.14-10.16.58:096][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/cylinder_peice.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:096][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by cylinder_peice
+[2021.05.14-10.16.58:096][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:096][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by 90_degree_wall
+[2021.05.14-10.16.58:096][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:096][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by 90_degree_wall
+[2021.05.14-10.16.58:096][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:096][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by 90_degree_wall
+[2021.05.14-10.16.58:096][  0]LogLinker: Warning: While loading 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/assets/90_degree_wall.uasset' failed to load '/Game/assets/lambert1': Can't find file.
+[2021.05.14-10.16.58:096][  0]LoadErrors: Failed to load /Game/assets/lambert1.lambert1 Referenced by 90_degree_wall
+[2021.05.14-10.16.58:255][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.14-10.16.58:255][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020692A37E00), frame # 0
+[2021.05.14-10.16.58:255][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000020692CB3D80), frame # 0
+[2021.05.14-10.16.58:281][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.14-10.16.58:295][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2021.05.14-10.16.58:295][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.14-10.16.58:295][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.11ms to complete.
+[2021.05.14-10.16.58:295][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.412
+[2021.05.14-10.16.58:297][  0]LogUnrealEdMisc: Total Editor Startup Time, took 16.048
+[2021.05.14-10.16.58:423][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-10.16.58:430][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-10.16.58:436][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-10.16.58:443][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-10.16.58:497][  0]LogCollectionManager: Loaded 0 collections in 0.001434 seconds
+[2021.05.14-10.16.58:509][  0]LogFileCache: Scanning file cache for directory 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Collections/' took 0.00s
+[2021.05.14-10.16.58:509][  0]LogFileCache: Scanning file cache for directory 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/Developers/ms05254929/Collections/' took 0.00s
+[2021.05.14-10.16.58:509][  0]LogFileCache: Scanning file cache for directory 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/Collections/' took 0.00s
+[2021.05.14-10.16.58:509][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 3427 classes and 821 folders.
+[2021.05.14-10.16.58:511][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.05.14-10.16.58:565][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.05.14-10.16.58:566][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 2 classes and 0 folders.
+[2021.05.14-10.16.58:606][  0]LogSlate: Took 0.000733 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.05.14-10.16.58:608][  0]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.05.14-10.16.58:611][  0]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.05.14-10.16.58:672][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.05.14-10.16.58:827][  0]LogSlate: Window 'Tutorials' being destroyed
+[2021.05.14-10.16.58:883][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.05.14-10.16.58:883][  0]LogLoad: (Engine Initialization) Total time: 16.64 seconds
+[2021.05.14-10.16.58:883][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.05.14-10.16.58:916][  0]LogAssetRegistry: Asset discovery search completed in 10.4220 seconds
+[2021.05.14-10.16.58:919][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000002 seconds (updated 0 objects)
+[2021.05.14-10.16.58:921][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.05.14-10.16.58:996][  0]LogSlate: Took 0.000304 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.14-10.16.59:000][  0]LogSlate: Took 0.000241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.05.14-10.17.02:118][367]LogSlate: Window 'Message Log' being destroyed
+[2021.05.14-10.17.02:121][367]LogSlate: Window 'Message Log' being destroyed
+[2021.05.14-10.17.23:251][818]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.14-10.17.23:264][818]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.05.14-10.17.23:445][818]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 125 classes and 0 folders.
+[2021.05.14-10.17.24:247][818]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.14-10.17.24:393][819]LogSlate: Took 0.000377 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.14-10.18.13:697][351]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2021.05.14-10.18.31:702][414]LogAssetEditorSubsystem: Opening Asset editor for WidgetBlueprint /Game/FirstPersonBP/Blueprints/PAUSEHUD.PAUSEHUD
+[2021.05.14-10.18.58:801][750]LogSlate: Window 'Color Picker' being destroyed
+[2021.05.14-10.19.04:374][ 96]LogSlate: Window 'Message' being destroyed
+[2021.05.14-10.19.04:381][ 96]Message dialog closed, result: Ok, title: Message, text: You do not have sufficient permission to save the following content to disk. Any changes you make to this content will only apply during the current editor session.
+
+/Engine/UMG/Editor/Transient
+
+[2021.05.14-10.19.04:408][ 97]SourceControl: Error: fatal: Invalid path 'C:/Program Files/Epic Games/UE_4.25/Engine/Content/UMG': No such file or directory
+[2021.05.14-10.22.45:176][381]BlueprintLog: New page: Compile PAUSEHUD
+[2021.05.14-10.22.45:239][381]LogUObjectHash: Compacting FUObjectHashTables data took   3.63ms
+[2021.05.14-10.26.59:287][368]LogUObjectHash: Compacting FUObjectHashTables data took   3.46ms
+[2021.05.14-10.26.59:291][368]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.036
+[2021.05.14-10.26.59:291][368]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2021.05.14-10.26.59:311][368]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2021.05.14-10.26.59:311][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2021.05.14-10.26.59:354][368]LogSavePackage: Moving 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/FirstPersonCharacter_Auto1C645E9544E0E145704AC6D862E877B46.tmp' to 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto1.uasset'
+[2021.05.14-10.26.59:355][368]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/PAUSEHUD] ([1] browsable assets)...
+[2021.05.14-10.26.59:355][368]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/PAUSEHUD]
+[2021.05.14-10.26.59:360][368]LogSavePackage: Moving 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/PAUSEHUD_Auto1303CB3724D128D028CDD00A3E9455DA6.tmp' to 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Autosaves/Game/FirstPersonBP/Blueprints/PAUSEHUD_Auto1.uasset'
+[2021.05.14-10.26.59:361][368]LogFileHelpers: Auto-saving content packages took 0.070
+[2021.05.14-10.29.51:501][838]BlueprintLog: New page: Compile PAUSEHUD
+[2021.05.14-10.29.51:531][838]LogUObjectHash: Compacting FUObjectHashTables data took   2.71ms
+[2021.05.14-10.30.11:669][870]BlueprintLog: New page: Compile PAUSEHUD
+[2021.05.14-10.30.11:698][870]LogUObjectHash: Compacting FUObjectHashTables data took   2.93ms
+[2021.05.14-10.31.00:304][429]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.05.14-10.31.00:369][429]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2021.05.14-10.31.16:832][558]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.05.14-10.31.16:898][558]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2021.05.14-10.34.23:501][429]BlueprintLog: New page: Compile PAUSEHUD
+[2021.05.14-10.34.23:550][429]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.05.14-10.34.26:223][710]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-10.34.26:235][710]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.14-10.34.26:239][710]LogPlayLevel: [PlayLevel] Compiling FirstPersonCharacter before play...
+[2021.05.14-10.34.26:318][710]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2021.05.14-10.34.26:320][710]LogPlayLevel: PlayLevel: Blueprint regeneration took 85 ms (1 blueprints)
+[2021.05.14-10.34.26:320][710]PIE: New page: PIE session: ThirdPersonExampleMap (14 May 2021, 12:34:26)
+[2021.05.14-10.34.26:321][710]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.05.14-10.34.26:322][710]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.05.14-10.34.26:322][710]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.14-10.34.26:343][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020682s)
+[2021.05.14-10.34.26:344][710]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.14-10.34.26:344][710]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (00000207055B9800), frame # 56710
+[2021.05.14-10.34.26:344][710]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002070C69D580), frame # 56710
+[2021.05.14-10.34.26:344][710]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2021.05.14-10.34.26:344][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021876s)
+[2021.05.14-10.34.26:372][710]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2021.05.14-10.34.26:373][710]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-10.34.26:373][710]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-10.34.26:373][710]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-10.34.26:373][710]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-10.34.26:373][710]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-10.34.26:373][710]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-10.34.26:373][710]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-10.34.26:373][710]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-10.34.26:373][710]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-10.34.26:373][710]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-10.34.26:376][710]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-10.34.26:376][710]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-10.34.26:391][710]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.05.14-10.34.26:391][710]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-10.34.26:391][710]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-10.34.26:391][710]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-10.34.26:392][710]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-10.34.26:403][710]LogInit: FAudioDevice initialized.
+[2021.05.14-10.34.26:417][710]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-10.34.26:421][710]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.05.14-11.34.26
+[2021.05.14-10.34.26:422][710]LogWorld: Bringing up level for play took: 0.005595
+[2021.05.14-10.34.26:423][710]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2021.05.14-10.34.26:435][710]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.05.14-10.34.26:436][710]PIE: Server logged in
+[2021.05.14-10.34.26:437][710]PIE: Play in editor total start time 0.207 seconds.
+[2021.05.14-10.34.33:623][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-10.34.33:623][528]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.14-10.34.33:624][528]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-10.34.33:625][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-10.34.33:643][528]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-10.34.33:652][528]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-10.34.33:683][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-10.34.33:710][528]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002070C69D580), frame # 57528
+[2021.05.14-10.34.33:710][528]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (00000207055B9800), frame # 57528
+[2021.05.14-10.34.33:739][528]LogUObjectHash: Compacting FUObjectHashTables data took   3.88ms
+[2021.05.14-10.34.33:763][529]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2021.05.14-10.35.20:953][825]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.05.14-10.35.21:043][825]LogUObjectHash: Compacting FUObjectHashTables data took   3.04ms
+[2021.05.14-10.35.22:029][914]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-10.35.22:041][914]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-10.35.22:041][914]PIE: New page: PIE session: ThirdPersonExampleMap (14 May 2021, 12:35:22)
+[2021.05.14-10.35.22:041][914]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.14-10.35.22:057][914]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015488s)
+[2021.05.14-10.35.22:058][914]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.14-10.35.22:058][914]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000020725EABE00), frame # 58914
+[2021.05.14-10.35.22:058][914]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000207260A6E80), frame # 58914
+[2021.05.14-10.35.22:058][914]LogPlayLevel: PIE: World Init took: (0.001025s)
+[2021.05.14-10.35.22:058][914]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.016643s)
+[2021.05.14-10.35.22:085][914]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2021.05.14-10.35.22:086][914]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-10.35.22:086][914]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-10.35.22:086][914]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-10.35.22:086][914]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-10.35.22:086][914]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-10.35.22:086][914]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-10.35.22:086][914]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-10.35.22:086][914]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-10.35.22:086][914]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-10.35.22:086][914]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-10.35.22:089][914]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-10.35.22:089][914]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-10.35.22:102][914]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.05.14-10.35.22:102][914]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-10.35.22:102][914]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-10.35.22:102][914]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-10.35.22:102][914]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-10.35.22:114][914]LogInit: FAudioDevice initialized.
+[2021.05.14-10.35.22:128][914]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-10.35.22:137][914]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.05.14-11.35.22
+[2021.05.14-10.35.22:138][914]LogWorld: Bringing up level for play took: 0.007859
+[2021.05.14-10.35.22:138][914]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2021.05.14-10.35.22:140][914]PIE: Server logged in
+[2021.05.14-10.35.22:141][914]PIE: Play in editor total start time 0.102 seconds.
+[2021.05.14-10.35.32:336][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-10.35.32:336][117]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.14-10.35.32:336][117]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-10.35.32:338][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-10.35.32:350][117]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-10.35.32:355][117]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-10.35.32:393][117]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-10.35.32:394][117]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000207260A6E80), frame # 60117
+[2021.05.14-10.35.32:394][117]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000020725EABE00), frame # 60117
+[2021.05.14-10.35.32:396][117]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2021.05.14-10.35.32:417][118]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2021.05.14-10.37.22:162][947]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
+[2021.05.14-10.37.22:751][947]LogSavePackage: Moving 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/ThirdPersonExampleMap_Auto2CD42A4C746957E39F23CD59C1533424E.tmp' to 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Autosaves/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_Auto2.umap'
+[2021.05.14-10.37.22:752][947]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap' took 0.616
+[2021.05.14-10.37.22:752][947]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.616
+[2021.05.14-10.37.22:753][947]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter] ([1] browsable assets)...
+[2021.05.14-10.37.22:761][947]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter]
+[2021.05.14-10.37.22:761][947]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/FirstPersonCharacter]
+[2021.05.14-10.37.22:805][947]LogSavePackage: Moving 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/FirstPersonCharacter_Auto244E953E54931010FF63E1FA1B1AB6A3A.tmp' to 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Autosaves/Game/FirstPersonBP/Blueprints/FirstPersonCharacter_Auto2.uasset'
+[2021.05.14-10.37.22:806][947]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FirstPersonBP/Blueprints/PAUSEHUD] ([1] browsable assets)...
+[2021.05.14-10.37.22:806][947]OBJ SavePackage: Finished generating thumbnails for package [/Game/FirstPersonBP/Blueprints/PAUSEHUD]
+[2021.05.14-10.37.22:815][947]LogSavePackage: Moving 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/PAUSEHUD_Auto2DC79BB5C4C75EE8191D4D6A5A3D35DBA.tmp' to 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/Autosaves/Game/FirstPersonBP/Blueprints/PAUSEHUD_Auto2.uasset'
+[2021.05.14-10.37.22:815][947]LogFileHelpers: Auto-saving content packages took 0.064
+[2021.05.14-10.41.31:748][164]BlueprintLog: New page: Compile FirstPersonCharacter
+[2021.05.14-10.41.31:816][164]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2021.05.14-10.43.34:389][567]BlueprintLog: New page: Compile PAUSEHUD
+[2021.05.14-10.43.34:443][567]LogUObjectHash: Compacting FUObjectHashTables data took   3.36ms
+[2021.05.14-10.43.36:693][811]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.14-10.43.36:703][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.14-10.43.36:703][811]PIE: New page: PIE session: ThirdPersonExampleMap (14 May 2021, 12:43:36)
+[2021.05.14-10.43.36:730][811]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.14-10.43.36:748][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019715s)
+[2021.05.14-10.43.36:749][811]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2021.05.14-10.43.36:749][811]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000002073C018600), frame # 99811
+[2021.05.14-10.43.36:749][811]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (000002072A846200), frame # 99811
+[2021.05.14-10.43.36:750][811]LogPlayLevel: PIE: World Init took: (0.001177s)
+[2021.05.14-10.43.36:750][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.021086s)
+[2021.05.14-10.43.36:780][811]LogUObjectHash: Compacting FUObjectHashTables data took   3.20ms
+[2021.05.14-10.43.36:781][811]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.14-10.43.36:781][811]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.14-10.43.36:781][811]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.14-10.43.36:781][811]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.14-10.43.36:781][811]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.14-10.43.36:781][811]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.14-10.43.36:781][811]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.14-10.43.36:781][811]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.14-10.43.36:782][811]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.14-10.43.36:782][811]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.14-10.43.36:784][811]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.14-10.43.36:784][811]LogAudioMixer: Display: 1: FrontRight
+[2021.05.14-10.43.36:799][811]LogAudioMixer: Display: Using Audio Device Headphones (High Definition Audio Device)
+[2021.05.14-10.43.36:799][811]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.14-10.43.36:799][811]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.14-10.43.36:799][811]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.14-10.43.36:800][811]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.14-10.43.36:811][811]LogInit: FAudioDevice initialized.
+[2021.05.14-10.43.36:822][811]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2021.05.14-10.43.36:827][811]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2021.05.14-11.43.36
+[2021.05.14-10.43.36:828][811]LogWorld: Bringing up level for play took: 0.005114
+[2021.05.14-10.43.36:828][811]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2021.05.14-10.43.36:830][811]PIE: Server logged in
+[2021.05.14-10.43.36:831][811]PIE: Play in editor total start time 0.13 seconds.
+[2021.05.14-10.43.50:886][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-10.43.50:889][488]LogWorld: BeginTearingDown for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2021.05.14-10.43.50:939][488]LogWorld: UWorld::CleanupWorld for ThirdPersonExampleMap, bSessionEnded=true, bCleanupResources=true
+[2021.05.14-10.43.50:940][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-10.43.50:947][488]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.14-10.43.50:952][488]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.14-10.43.50:977][488]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.14-10.43.50:992][488]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (000002072A846200), frame # 101488
+[2021.05.14-10.43.50:992][488]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000002073C018600), frame # 101488
+[2021.05.14-10.43.50:995][488]LogUObjectHash: Compacting FUObjectHashTables data took   2.53ms
+[2021.05.14-10.43.51:034][489]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2021.05.14-10.43.54:940][922]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.05.14-10.43.55:018][922]LogSavePackage: Moving 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/ThirdPersonExampleMapF1F49F9140765456874CEFB05499BD18.tmp' to 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2021.05.14-10.43.55:035][922]LogFileHelpers: Saving map 'ThirdPersonExampleMap' took 0.122
+[2021.05.14-10.43.55:092][922]LogSavePackage: Moving 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/FirstPersonCharacterBCE0669640B29513B64CD6895E7CA5B6.tmp' to 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/FirstPersonBP/Blueprints/FirstPersonCharacter.uasset'
+[2021.05.14-10.43.55:103][922]LogSavePackage: Moving 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Saved/PAUSEHUDD780B53A462CD63E6F0B0FA5710F28CA.tmp' to 'D:/Virtual Work Experiance group 1/project/VWXProject/Thirdperson version/Content/FirstPersonBP/Blueprints/PAUSEHUD.uasset'
+[2021.05.14-10.43.55:288][922]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.14-10.43.55:288][922]LogContentValidation: Display: Validating World /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap
+[2021.05.14-10.43.55:288][922]LogContentValidation: Display: Validating Blueprint /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter
+[2021.05.14-10.43.55:288][922]LogContentValidation: Display: Validating WidgetBlueprint /Game/FirstPersonBP/Blueprints/PAUSEHUD.PAUSEHUD
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/2D/Paper2D/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Developer/AnimationSharing/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Editor/GeometryMode/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Enterprise/DatasmithContent/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosClothEditor/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosNiagara/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/ChaosSolverPlugin/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryCollectionPlugin/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Experimental/GeometryProcessing/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/FX/Niagara/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeap/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Lumin/MagicLeapPassableWorld/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Media/MediaCompositing/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/MovieScene/MovieRenderPipeline/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Oculus/OculusVR/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/PostSplashScreen/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:455][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content: 'C:/Program Files/Epic Games/UE_4.25/Engine/Plugins/Runtime/Steam/SteamVR/Content' is outside repository at 'D:/Virtual Work Experiance group 1/project/VWXProject'
+[2021.05.14-10.43.57:573][127]EditorErrors: Warning: No assets to check in!
